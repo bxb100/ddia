@@ -470,9 +470,9 @@ db.observations.mapReduce(function map() {
 
 例如，假设 `observations` 集合包含这两个文档：
 
-```json
+```bson
 {
-  observationTimestamp: Date.parse(  "Mon, 25 Dec 1995 12:34:56 GMT"),
+  observationTimestamp: Date.parse("Mon, 25 Dec 1995 12:34:56 GMT"),
   family: "Sharks",
   species: "Carcharodon carcharias",
   numAnimals: 3
